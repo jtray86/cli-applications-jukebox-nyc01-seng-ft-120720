@@ -30,7 +30,7 @@ def play(songs)
     if song_choice.to_i == index + 1
       puts "Playing #{song_name}"
       
-    elsif song_choice == song_name
+    elsif song_choice == "song_name"
       puts "Playing #{song_name}"
     
     end
