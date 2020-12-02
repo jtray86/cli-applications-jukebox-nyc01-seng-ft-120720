@@ -27,10 +27,10 @@ def play(songs)
   song_choice = gets.strip
   songs.each_with_index do |song_name, index|
     
-    #if song_choice.to_i == index + 1
-     # puts "Playing #{song_name}"
+    if song_choice.to_i == index + 1
+     puts "Playing #{song_name}"
       
-    if song_choice == song_name
+     elsif song_name == song_choice
       puts "Playing #{song_name}"
     
     end
